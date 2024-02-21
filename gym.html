@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+        body{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin:0px;
+            padding: 0px;
+            color: azure;
+            background-image: url(gym\(Apna\ College\).jpg);
+            background-size: cover;
+
+
+        }
+
+        .left{
+             /* border: 2px solid red;  */
+            display: block;
+            /* position: absolute; */
+            right: 34px;
+            top: 10px;
+        }
+        .left img{
+            width: 100px;
+            filter: invert(100%);
+        }
+
+        .mid{
+            display: block;
+            /* border: 2px solid rgb(13, 0, 255);  */
+            margin: auto;
+            width: 600px;
+            padding-left: 100px;
+            top: 10px;
+            position: fixed;
+            padding-right: 500px;
+            margin-left: 280px;
+        }
+
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            /* border: 2px solid rgb(136, 255, 0); */
+            display: inline;
+         }
+        .navbar li{
+
+            color: white;
+            display: inline;
+        } 
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding-left: 25px;
+          
+        }
+        .navbar a:hover{
+            color: antiquewhite;
+            text-decoration:underline;
+        }
+        .btn{
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-left: 10px;
+            padding-left: 10px;
+            /* font-family: 'Baloo Bhai 2', cursive; */
+            
+        }
+        .btn:hover{
+            color: antiquewhite;
+            text-decoration: underline;
+            /* background-color: antiquewhite; */
+        }
+        .text {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.591);
+        margin-top: 150px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 30px;
+        width: 600px;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
+    </style>
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left bar for logo -->
+        <div class="left">
+
+        <img src="logo fitness hub.png" alt="">
+
+
+        </div>
+        <!-- mid bar for navigation-->
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="abouts us.html">About us</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+            <li><a href="fitness cal.html">Fitness calculator</a></li>
+        </ul>
+
+
+        </div>
+        <!-- right bar for further add ons -->
+        <div class="right">
+            <!-- <p>I am right</p> -->
+            <button class="btn">Call us</button><button class="btn">Email us</button>
+         </div>
+
+         <div class="text">
+            <h3>Login</h3>
+            <form action="backend.php">
+            <strong></strong><input type="text"  placeholder="Username"><br>
+            <strong></strong><input type="text"  placeholder="password"><br>
+            <strong>Remember me</strong><input type="checkbox">
+            <button type="submit" class="btn">
+             Login
+            </button><br>
+            <a href="text">Forgot password </a><br>
+            <strong>Dont have an account ?</strong>
+            <a href="#">Register now</a></p>
+        
+            </div>
+
+
+
+
+
+
+
+    </header>
+    
+</body>
+</html>
